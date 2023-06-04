@@ -4,7 +4,7 @@ const dishesInfo = [
         dishesList: 
             [
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: '../img/dishes/breakfast/test-dish.jpg',
                     title: 'Сырники',
                     ingredientsList: [{ingr: 'творог 5%', quant: '400 г'}, {ingr: 'желток', quant: '2 шт.'}, {ingr: 'мука', quant: '2-3 ст.л.'}, {ingr: 'сахар', quant: 'по вкусу'}],
                     note: 'Тесто скатать в колбаску, обвалять в муке, разделить на сырники, каждый обвалять в муке. Жарить с обеих сторон.'
