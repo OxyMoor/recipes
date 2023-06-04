@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рецепты</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo-link">
+                <img class="logo-image" src="./img/icons/logo.svg" alt="icon: logo">
+                <span class="logo-text">Мои рецепты</span>
+            </a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="tab-btns">
+                <button class="tab-btn active" data-section="breakfast">Завтраки</button>
+                <button class="tab-btn" data-section="garnish">Гарниры</button>
+                <button class="tab-btn" data-section="dinner">Обед, Ужин</button>
+                <button class="tab-btn" data-section="salad">Салаты</button>
+                <button class="tab-btn" data-section="protein">Белок</button>
+                <button class="tab-btn" data-section="snack">Закуски</button>
+            </div>
+            <div class="dishes breakfast active"></div>
+            <div class="dishes garnish"></div>
+            <div class="dishes dinner"></div>
+            <div class="dishes salad"></div>
+            <div class="dishes protein"></div>
+            <div class="dishes snack"></div>
+            <!-- modal -->
+            <div class="modal"></div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <span class="footer-text">OxyMoor</span>
+            <span class="footer-text">2023</span>
+        </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/dishes.js"></script>
+</body>
+</html>
