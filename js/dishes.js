@@ -161,55 +161,55 @@ const dishesInfo = [
         dishesList:
             [
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/salad/kuritsa-s-fasolyu.jpg',
                     title: 'Курица и фасоль',
                     ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'фасоль консервированная', quant: '1 банка'}, {ingr: 'сыр', quant: '-'}, {ingr: 'морковь по-корейски', quant: '1/2 упаковки'}, {ingr: 'майонез', quant: '-'}],
                     note: 'Сыр натереть. Курицу отварить, порезать и смешать с остальными ингредиентами. Заправить майонезом.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/salad/kuritsa-s-chernoslivom.jpg',
                     title: 'Курица и чернослив',
                     ingredientsList: [{ingr: 'Курица', quant: '1 филе'}, {ingr: 'яйцо', quant: '1-2 шт.'}, {ingr: 'огурец свежий', quant: '1 шт.'}, {ingr: 'морковь', quant: '1 шт.'}, {ingr: 'лук', quant: '1 шт.'}, {ingr: 'чернослив', quant: 'жменька'}, {ingr: 'грецкий орех', quant: '2-3 шт.'}, {ingr: 'укроп', quant: '-'}, {ingr: 'майонез', quant: '-'}],
                     note: 'Курицу и яйца отварить, морковь с луком потушить. Нарезать и смешать ингредиенты. Заправить майонезом.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/salad/vinegret.jpg',
                     title: 'Винегрет',
                     ingredientsList: [{ingr: 'картофель', quant: '1-2 шт.'}, {ingr: 'свекла вареная', quant: '2 шт.'}, {ingr: 'морковь', quant: '1 шт.'}, {ingr: 'огурец соленый', quant: '1-2 шт.'}, {ingr: 'горошек консервированный', quant: '1 банка'}, {ingr: 'лук', quant: '1/2 шт.'}, {ingr: 'масло растительное', quant: '2 ст.л.'}],
                     note: 'Отварить картофель и морковь. Нарезать и смешать ингредиенты. Заправить растительным маслом.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/salad/olivye.jpg',
                     title: 'Оливье',
                     ingredientsList: [{ingr: 'картофель', quant: '2-3 шт.'}, {ingr: 'морковь', quant: '1 шт.'}, {ingr: 'яйцо', quant: '1-2 шт.'}, {ingr: 'горошек консервированный', quant: '1 банка'}, , {ingr: 'колбаса вареная/отварная курица', quant: '1 филе'}, , {ingr: 'лук', quant: '1/2 шт.'}, , {ingr: 'майонез', quant: '-'}],
                     note: 'Отварить картофель, морковь, яйцо. Нарезать и смешать ингредиенты. Заправить майонезом.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/salad/krabovii-bez-risa.jpg',
                     title: 'Крабовый салат без риса',
                     ingredientsList: [{ingr: 'крабовые палочки', quant: '1 упаковка'}, {ingr: 'огурец свежий', quant: '1-2 шт.'}, {ingr: 'кукуруза консервированная', quant: '1 банка'}, {ingr: 'капуста пекинская', quant: '1/4 кочана'}, {ingr: 'яйцо', quant: '1-2 шт.'}, {ingr: 'лук', quant: '1/2 шт.'}, {ingr: 'майонез', quant: '-'}],
                     note: 'Яйцо отварить. Нарезать и смешать ингредиенты. Заправить майонезом.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/salad/kuritsa-s-kapustoi-i-goroshkom.jpg',
                     title: 'Курица и капуста',
                     ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'капуста', quant: '1/4 кочана'}, {ingr: 'горошек консервированный', quant: '1 банка'}, {ingr: 'сыр', quant: '-'}, {ingr: 'майонез', quant: '-'}],
                     note: 'Курицу отварить, капусту нарезать, сыр натереть. Смешать ингредиенты. Заправить майонезом.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/salad/ovoschnoi.jpg',
                     title: 'Овощной салат',
                     ingredientsList: [{ingr: 'любые свежие овощи', quant: 'сколько захочется'}, {ingr: 'зелень', quant: '-'}, {ingr: 'лук', quant: '-'}],
                     note: 'Нарезать салат. Заправка - майонез/сметана/масло/йогурт.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/salad/svekla-s-chesnokom.jpg',
                     title: 'Свекла с чесноком и орехами',
                     ingredientsList: [{ingr: 'свекла вареная', quant: '2 шт.'}, {ingr: 'чеснок', quant: '1 зубчик'}, {ingr: 'грецкий орех', quant: '1-2 шт.'}, {ingr: 'майонез', quant: '-'}, {ingr: 'соль', quant: 'по вкусу'}],
                     note: 'Свеклу и чеснок натереть. Орех мелко нарезать. Посолить, заправить майонезом.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/salad/tunets-s-avokado.jpg',
                     title: 'Салат с тунцом',
                     ingredientsList: [{ingr: 'тунец консервированный', quant: '150 г'}, {ingr: 'авокадо', quant: '1/2 шт.'}, {ingr: 'томат', quant: '100 г'}, {ingr: 'огурец', quant: '100 г'}, {ingr: 'греческий йогурт', quant: '2-3 ст.л.'}, {ingr: 'соевый соус', quant: '1/2 ч.л.'}, {ingr: 'соль', quant: 'по вкусу'}],
                     note: 'Тунец размять вилкой, овощи нарезать. Для заправки смешать греческий йогурт и соевый соус.'
@@ -221,37 +221,37 @@ const dishesInfo = [
         dishesList:
             [
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/protein/kuritsa-tushenaya-v-souse.jpg',
                     title: 'Курица тушеная в соусе',
                     ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'сметана', quant: '2 ст.л.'}, {ingr: 'соус', quant: '1 ст.л.'}, {ingr: 'мука', quant: '1 ст.л.'}, {ingr: 'вода', quant: '1/2 стакана'}, {ingr: 'соль', quant: 'по вкусу'}],
                     note: 'Курицу слегка обжарить, добавить муку и продолжать обжаривать 1 минуту. Смешать воду, соус и сметану, добавить в сковороду. Тушить 15 минут.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/protein/kuritsa-v-listah.jpg',
                     title: 'Курица жареная в листах магги',
                     ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'листы для жарки', quant: '1 упаковка'}],
                     note: 'Филе порезать на плоские стейки, жарить в листах по инструкции.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/protein/rublenie-kotletki.jpg',
                     title: 'Рубленные котлетки',
                     ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'яйцо', quant: '1 шт.'}, {ingr: 'лук', quant: '1/2 шт.'}, {ingr: 'мука', quant: '2 ст.л.'}, {ingr: 'соль, специи', quant: 'по вкусу'}],
                     note: 'Курицу и лук по возможности мелко порезать, добавить яйцо и муку, посолить. Котлетки выкладывать на сковороду ложкой, обжаривать с каждой стороны по 3-5 минут.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/protein/stripsi.jpg',
                     title: 'Стрипсы',
                     ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'яйцо', quant: '1 шт.'}, {ingr: 'мука', quant: '-'}, {ingr: 'чипсы без вкуса', quant: 'большая упаковкка'}, {ingr: 'вода', quant: '1/2 ст.'}, {ingr: 'уксус', quant: '1 ст.л.'}, {ingr: 'соевый соус', quant: '1 ст.л.'}, {ingr: 'сахар', quant: '1 ст.л.'}, {ingr: 'соль, паприка', quant: 'по вкусу'}],
                     note: 'Курицу нарезать полосками. Смешать воду, уксус, соевый соус, сахар, соль и специи, замариновать курицу в этой смеси. Куриные кусочки обвалять в муке, затем обмакнуть в яйцо, затем обвалять в крошке из чипсов. Выпекать на пергаменте около 20 минут.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/protein/omlet-s-tomatami-i-sirom.jpg',
                     title: 'Омлет с помидорами и сыром',
                     ingredientsList: [{ingr: 'яйца', quant: '2-3 шт.'}, {ingr: 'молоко', quant: '-'}, {ingr: 'сыр', quant: '-'}, {ingr: 'помидоры', quant: '1-2 шт.'}, {ingr: 'зелень', quant: '-'}, {ingr: 'соль', quant: 'по вкусу'}],
                     note: 'Помидоры нарезать кубиком, слегка обжарить на сковороде. Взбить яйца с небольшим количеством молока, посолить. Вылить смесь к помидорам. На большом огне помешивать, пока яйцо не схватится. Затем уменьшить огонь, посыпать омлет тертым сыром, готовить под крышкой несколько минут. Посыпать зеленью.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/protein/yaitso-pashot.jpg',
                     title: 'Яйцо',
                     ingredientsList: [{ingr: 'яйцо', quant: '-'}],
                     note: 'Яйцо можно сварить как есть, сварить в пашотнице или пожарить.'
@@ -263,85 +263,85 @@ const dishesInfo = [
         dishesList:
             [
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/tosti-s-riboi.jpg',
                     title: 'Тосты с авокадо и красной рыбой',
                     ingredientsList: [{ingr: 'хлеб', quant: '2 куска'}, {ingr: 'авокадо', quant: '1/2 шт.'}, {ingr: 'красная рыба', quant: '2-4 ломтика'}, {ingr: 'творожный сыр', quant: '-'}, {ingr: 'лимонный сок', quant: 'несколько капель'}, {ingr: 'соль, перец', quant: 'по вкусу'}],
                     note: 'Хлеб поджарить. Авокадо растолочь в пюре, сбрызнуть лимонным соком, посолить, поперчить. Намазать на хлеб творожный сыр, пюре, сверху выложить красную рыбу.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/tosti-s-avokado.jpg',
                     title: 'Тосты с творожныым сыром и авокадо',
                     ingredientsList: [{ingr: 'хлеб', quant: '2 куска'}, {ingr: 'авокадо', quant: '1/2 шт.'}, {ingr: 'творожный сыр', quant: '-'}, {ingr: 'лимонный сок', quant: 'несколько капель'}, {ingr: 'соль, перец', quant: 'по вкусу'}],
                     note: 'Хлеб поджарить. Авокадо растолочь в пюре, сбрызнуть лимонным соком, посолить, поперчить. Намазать на хлеб творожный сыр, пюре.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/tosti-s-tomatami.jpg',
                     title: 'Тосты с творожным сыром и вялеными томатами',
                     ingredientsList: [{ingr: 'хлеб', quant: '2 куска'}, {ingr: 'вяленые томаты', quant: '-'}, {ingr: 'творожный сыр', quant: '-'}],
                     note: 'Хлеб поджарить. Намазать на хлеб творожный сыр, сверху выложить вяленые томаты.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/tosti-s-bananom.jpg',
                     title: 'Тосты с арахисовой пастой и бананом',
                     ingredientsList: [{ingr: 'хлеб', quant: '2 куска'}, {ingr: 'банан', quant: '1 шт.'}, {ingr: 'арахисовая паста', quant: '1 ст.л.'}],
                     note: 'Хлеб поджарить, смазать арахисовой пастой. Сверху выложить нарезанный банан.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/buterbrody-so-shprotami.jpg',
                     title: 'Бутерброды со шпротами',
                     ingredientsList: [{ingr: 'батон', quant: '-'}, {ingr: 'шпроты', quant: '1 банка'}, {ingr: 'огурец свежий/соленый', quant: '1 шт.'}, {ingr: 'чеснок', quant: '1 зубчик'}, {ingr: 'майонез', quant: '-'}],
                     note: 'Батон поджарить, натереть чесноком, смазать майонезом. Сверху выложить шпроты и нарезанный огурец.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/sirnii-omlet-s-lavashom.jpg',
                     title: 'Сырный омлет в лаваше',
                     ingredientsList: [{ingr: 'яйцо', quant: '2 шт.'}, {ingr: 'лаваш круглый', quant: '1 шт.'}, {ingr: 'сыр', quant: '-'}, {ingr: 'соль', quant: 'по вкусу'}],
                     note: 'Взбить яйца, вылить на сковороду. Сверху сразу накрыть лавашом. Через несколько минкт, когда яйцо схватится, перевернуть. Посыпать сверху (на яйцо) сыром, готовить под крышкой до готовности яйца.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
-                    title: 'Плюшки из слоеного теста',
+                    imgSrc: './img/dishes/snack/sloenye-ruletiki.jpg',
+                    title: 'Рулетики из слоеного теста',
                     ingredientsList: [{ingr: 'тесто слоеное', quant: '1 упаковка'}, {ingr: 'колбаса', quant: '-'}, {ingr: 'сыр', quant: '-'}, {ingr: 'кетчуп', quant: '-'},  {ingr: 'майонез', quant: '-'}],
                     note: 'Тесто смазать кетчупом и майонезом. Сверху равномерно выложить колбасу и сыр. Скатать в колбаску, затем разделить на булочки. Выпекать около 30 минут.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/pitsa.jpg',
                     title: 'Пицца',
                     ingredientsList: [{ingr: 'тесто дрожжевое', quant: '1 упаковка'}, {ingr: 'Колбаса', quant: '-'}, {ingr: 'сыр', quant: '-'}, {ingr: 'кетчуп', quant: '-'}, {ingr: 'майонез', quant: '-'}, {ingr: 'томаты (вяленые или свежие), болгарский перец, лук, маслины', quant: 'опционально'}],
                     note: 'Раскатать тесто, смазать кетчупом и майонезом, выложить начинку и посыпать тертым сыром. Выпекать около 30 минут.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/hachapuri.jpg',
                     title: 'Хачапури',
                     ingredientsList: [{ingr: 'творог', quant: '250 г'}, {ingr: 'масло сливочное', quant: '150 г'}, {ingr: 'мука', quant: '1.5 ст.'}, {ingr: 'сахар', quant: '1/2 ст.л.'}, {ingr: 'сода', quant: '1/2 ч.л.'}, {ingr: 'сыр адыгейский', quant: '150 г'}, {ingr: 'сметана', quant: '2 ст.л.'}, {ingr: 'зелень', quant: 'пучок'}, {ingr: 'соль, специи', quant: 'по вкусу'}],
                     note: 'Для теста смешать творог, масло, соду, сахар и муку. Раскатать 2 пласта. Для начинки смешать адыгейский сыр, 1 ст.л. сметаны, зелень, специи. Начинку выложить между двумя пластами теста, защипнуть края. Сверху смазать оставшейся сметаной, посыпать щепоткой соли. Запекать 40 имнут.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/pomidori-s-sirom.jpg',
                     title: 'Помидоры с сыром и чесноком',
                     ingredientsList: [{ingr: 'Помидоры', quant: '2-3 шт.'}, {ingr: 'сыр', quant: '-'}, {ingr: 'чеснок', quant: '1 зубчик'}, {ingr: 'майонез', quant: '-'}],
                     note: 'Натереть чеснок и сыр на мелкой терке, смешать с майонезом. Намазать смесь на нарезанные помидоры.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/rulet-iz-lavasha.jpg',
                     title: 'Рулет из лаваша',
                     ingredientsList: [{ingr: 'лаваш прямоугольный', quant: '2 листа'}, {ingr: 'морковь', quant: '1 шт.'}, {ingr: 'лук', quant: '1 шт.'}, {ingr: 'яйцо', quant: '1-2 шт.'}, {ingr: 'крабовые палочки', quant: '1 упаковка'}, {ingr: 'чеснок', quant: '1-2 зубчика'}, {ingr: 'майонез', quant: '-'}],
                     note: 'Яйца отварить, натереть. Из лука и моркови приготовить зажарку. Крабовые палочки мелко нарезать. Чеснок натереть на мелкой терке, смешать с майонезом, смазать один лист лаваша. На него выложить яйца и крабовые палочки. На сухой лист выложить зажарку. Один лист положить поверх другого и свернуть в рулет.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/zakusochnie-keksi.jpg',
                     title: 'Закусочные кексы',
                     ingredientsList: [{ingr: 'яйцо', quant: '2 шт.'}, {ingr: 'масло сливочное', quant: '2 ст.л.'}, {ingr: 'мука', quant: '3 ст.л.'}, {ingr: 'сода', quant: 'щепотка'}, {ingr: 'соль', quant: 'щепотка'}, {ingr: 'сахар', quant: 'щепотка'}, {ingr: 'колбаса', quant: '-'}, {ingr: 'сыр твердый', quant: '-'}, {ingr: 'сыр адыгейский', quant: '-'}],
                     note: 'Для теста смешать яйца, масло, муку, соду, соль, сахар. Колбасу и сыры порезать маленьким кубиком, смешать с тестом. Разложить по формочкам, выпекать 25 минут.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/lepeshki-s-kartoshkoi.jpg',
                     title: 'Лепешки с начинкой',
                     ingredientsList: [{ingr: 'вода', quant: '200 мл'}, {ingr: 'масло растительное', quant: '4 ст.л.'}, {ingr: 'соль', quant: '2 ч.л.'}, {ingr: 'мука', quant: '~350 г'}, {ingr: 'картофель', quant: '1-2 шт.'}, {ingr: 'зелень', quant: 'пучок'}, {ingr: 'масло сливочное', quant: '2 ч.л.'}],
                     note: 'Замешать тесто из воды, растительного масла, соли и муки. Для начинки отварить картофель, сделать из него пюре, добавить сливочное масло и нарезанную зелень. Разделить тесто на части, раскатать каждую часть и завернуть в нее начинку. Обжарить лепешки с обеих сторон.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/snack/domashniy-mayoanez.jpg',
                     title: '*Домашний майонез',
                     ingredientsList: [{ingr: 'яйцо', quant: '1 шт'}, {ingr: 'масло растительное', quant: '~250 мл'}, {ingr: 'соль', quant: '1/4 ч.л.'}, {ingr: 'сахар', quant: '1 ч.л.'}, {ingr: 'горчица', quant: '1 ч.л.'}, {ingr: 'уксус', quant: '2 ч.л.'}],
                     note: 'Все ингредиенты взбить миксером, постепенно добавляя масло до желаемой консистенции (чем больше масла, тем гуще майонез).'
@@ -353,13 +353,13 @@ const dishesInfo = [
         dishesList:
             [
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/dessert/pesochnoe-pechenie-s-vareniem.jpg',
                     title: 'Печенье песочное',
                     ingredientsList: [{ingr: 'масло сливочное', quant: '120 г'}, {ingr: 'желток', quant: '2 шт.'}, {ingr: 'сахар', quant: '30 г'}, {ingr: 'соль', quant: 'щепотка'}, {ingr: 'сода', quant: 'щепотка'}, {ingr: 'мука', quant: '250 г'}, {ingr: 'варенье', quant: '-'}],
                     note: 'В мягкое масло добавить сахар, соль, соду, желтки и взбить. Добавить муку. Можно раскатать большим пластом и смазать вареньем или же сделать маленькие печеньки. Выпекать в зависимости от размера печенья 10-30 минут.'
                 },
                 {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    imgSrc: './img/dishes/dessert/pechenie-snikers.jpg',
                     title: 'Печенье сникерс',
                     ingredientsList: [{ingr: 'масло сливочное', quant: '170 г'}, {ingr: 'мука', quant: '1 ст.'}, {ingr: 'сахар', quant: '4 ст.л.'}, {ingr: 'сгущенка', quant: '400 г'}, {ingr: 'кокосовая стружка', quant: '-'}, {ingr: 'шоколад', quant: '1/2 плитки'}],
                     note: 'Для основы смешать 120 г масла, муку и сахар. Раскатать пластом и выпекать 15-20 минут. Для крема растопить в кастрюле 50 г масла, влить сгущенку и поварить на медленном огне 5-8 минут до загустения. Затем добавить кокосовую стружку. На основу вылить крем, поставить в холодильник на 30 минут. Шоколад растопить и полить печенье сверху. Снова охладить.'
