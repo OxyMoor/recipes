@@ -163,56 +163,50 @@ const dishesInfo = [
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Курица и фасоль',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'фасоль консервированная', quant: '1 банка'}, {ingr: 'сыр', quant: '-'}, {ingr: 'морковь по-корейски', quant: '1/2 упаковки'}, {ingr: 'майонез', quant: '-'}],
+                    note: 'Сыр натереть. Курицу отварить, порезать и смешать с остальными ингредиентами. Заправить майонезом.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Курица и чернослив',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
-                },
-                {
-                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
-                    title: 'Салат с тунцом',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'Курица', quant: '1 филе'}, {ingr: 'яйцо', quant: '1-2 шт.'}, {ingr: 'огурец свежий', quant: '1 шт.'}, {ingr: 'морковь', quant: '1 шт.'}, {ingr: 'лук', quant: '1 шт.'}, {ingr: 'чернослив', quant: 'жменька'}, {ingr: 'грецкий орех', quant: '2-3 шт.'}, {ingr: 'укроп', quant: '-'}, {ingr: 'майонез', quant: '-'}],
+                    note: 'Курицу и яйца отварить, морковь с луком потушить. Нарезать и смешать ингредиенты. Заправить майонезом.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Винегрет',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'картофель', quant: '1-2 шт.'}, {ingr: 'свекла вареная', quant: '2 шт.'}, {ingr: 'морковь', quant: '1 шт.'}, {ingr: 'огурец соленый', quant: '1-2 шт.'}, {ingr: 'горошек консервированный', quant: '1 банка'}, {ingr: 'лук', quant: '1/2 шт.'}, {ingr: 'масло растительное', quant: '2 ст.л.'}],
+                    note: 'Отварить картофель и морковь. Нарезать и смешать ингредиенты. Заправить растительным маслом.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Оливье',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'картофель', quant: '2-3 шт.'}, {ingr: 'морковь', quant: '1 шт.'}, {ingr: 'яйцо', quant: '1-2 шт.'}, {ingr: 'горошек консервированный', quant: '1 банка'}, , {ingr: 'колбаса вареная/отварная курица', quant: '1 филе'}, , {ingr: 'лук', quant: '1/2 шт.'}, , {ingr: 'майонез', quant: '-'}],
+                    note: 'Отварить картофель, морковь, яйцо. Нарезать и смешать ингредиенты. Заправить майонезом.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Крабовый салат без риса',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'крабовые палочки', quant: '1 упаковка'}, {ingr: 'огурец свежий', quant: '1-2 шт.'}, {ingr: 'кукуруза консервированная', quant: '1 банка'}, {ingr: 'капуста пекинская', quant: '1/4 кочана'}, {ingr: 'яйцо', quant: '1-2 шт.'}, {ingr: 'лук', quant: '1/2 шт.'}, {ingr: 'майонез', quant: '-'}],
+                    note: 'Яйцо отварить. Нарезать и смешать ингредиенты. Заправить майонезом.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Курица и капуста',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'капуста', quant: '1/4 кочана'}, {ingr: 'горошек консервированный', quant: '1 банка'}, {ingr: 'сыр', quant: '-'}, {ingr: 'майонез', quant: '-'}],
+                    note: 'Курицу отварить, капусту нарезать, сыр натереть. Смешать ингредиенты. Заправить майонезом.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Овощной салат',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'любые свежие овощи', quant: 'сколько захочется'}, {ingr: 'зелень', quant: '-'}, {ingr: 'лук', quant: '-'}],
+                    note: 'Нарезать салат. Заправка - майонез/сметана/масло/йогурт.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Свекла с чесноком и орехами',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'свекла вареная', quant: '2 шт.'}, {ingr: 'чеснок', quant: '1 зубчик'}, {ingr: 'грецкий орех', quant: '1-2 шт.'}, {ingr: 'майонез', quant: '-'}, {ingr: 'соль', quant: 'по вкусу'}],
+                    note: 'Свеклу и чеснок натереть. Орех мелко нарезать. Посолить, заправить майонезом.'
                 },
             ]
     },
@@ -222,9 +216,39 @@ const dishesInfo = [
             [
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
-                    title: '',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    title: 'Курица тушеная в соусе',
+                    ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'сметана', quant: '2 ст.л.'}, {ingr: 'соус', quant: '1 ст.л.'}, {ingr: 'мука', quant: '1 ст.л.'}, {ingr: 'вода', quant: '1/2 стакана'}, {ingr: 'соль', quant: 'по вкусу'}],
+                    note: 'Курицу слегка обжарить, добавить муку и продолжать обжаривать 1 минуту. Смешать воду, соус и сметану, добавить в сковороду. Тушить 15 минут.'
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Курица жареная в листах магги',
+                    ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'листы для жарки', quant: '1 упаковка'}],
+                    note: 'Филе порезать на плоские стейки, жарить в листах по инструкции.'
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Рубленные котлетки',
+                    ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'яйцо', quant: '1 шт.'}, {ingr: 'лук', quant: '1/2 шт.'}, {ingr: 'мука', quant: '2 ст.л.'}, {ingr: 'соль, специи', quant: 'по вкусу'}],
+                    note: 'Курицу и лук по возможности мелко порезать, добавить яйцо и муку, посолить. Котлетки выкладывать на сковороду ложкой, обжаривать с каждой стороны по 3-5 минут.'
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Стрипсы',
+                    ingredientsList: [{ingr: 'курица', quant: '1 филе'}, {ingr: 'яйцо', quant: '1 шт.'}, {ingr: 'мука', quant: '-'}, {ingr: 'чипсы без вкуса', quant: 'большая упаковкка'}, {ingr: 'вода', quant: '1/2 ст.'}, {ingr: 'уксус', quant: '1 ст.л.'}, {ingr: 'соевый соус', quant: '1 ст.л.'}, {ingr: 'сахар', quant: '1 ст.л.'}, {ingr: 'соль, паприка', quant: 'по вкусу'}],
+                    note: 'Курицу нарезать полосками. Смешать воду, уксус, соевый соус, сахар, соль и специи, замариновать курицу в этой смеси. Куриные кусочки обвалять в муке, затем обмакнуть в яйцо, затем обвалять в крошке из чипсов. Выпекать на пергаменте около 20 минут.'
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Омлет с помидорами и сыром',
+                    ingredientsList: [{ingr: 'яйца', quant: '2-3 шт.'}, {ingr: 'молоко', quant: '-'}, {ingr: 'сыр', quant: '-'}, {ingr: 'помидоры', quant: '1-2 шт.'}, {ingr: 'зелень', quant: '-'}, {ingr: 'соль', quant: 'по вкусу'}],
+                    note: 'Помидоры нарезать кубиком, слегка обжарить на сковороде. Взбить яйца с небольшим количеством молока, посолить. Вылить смесь к помидорам. На большом огне помешивать, пока яйцо не схватится. Затем уменьшить огонь, посыпать омлет тертым сыром, готовить под крышкой несколько минут. Посыпать зеленью.'
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Яйцо',
+                    ingredientsList: [{ingr: 'яйцо', quant: '-'}],
+                    note: 'Яйцо можно сварить как есть, сварить в пашотнице или пожарить.'
                 },
             ]
     },
@@ -234,10 +258,82 @@ const dishesInfo = [
             [
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
-                    title: '',
+                    title: 'Тосты с авокадо и красной рыбой',
                     ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
                     note: ''
                 },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Тосты с творожныым сыром и авокадо',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Тосты с творожным сыром и вялеными томатами',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Тосты с арахисовой пастой и бананом',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Бутерброды со шпротами',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Сырный омлет в лаваше',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Плюшки из слоеного теста',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Пицца',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Хачапури',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Помидоры с сыром и чесноком',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Рулет из лаваша',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Закусочные кексы',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                },
+                {
+                    imgSrc: './img/dishes/breakfast/test-dish.jpg',
+                    title: 'Лепешки с начинкой',
+                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
+                    note: ''
+                }
             ]
     }
 ]
