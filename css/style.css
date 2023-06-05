@@ -134,6 +134,11 @@ ul {
     color: #2c2c2c;
 }
 
+.ingredients-item {
+    padding-right: 10px;
+    overflow-x: hidden;
+}
+
 .ingredients-item,
 .modal-item {
     position: relative;
@@ -218,7 +223,10 @@ ul {
     width: 100%;
     height: 200px;
     margin-bottom: 15px;
-    background: url("../img/dishes/breakfast/test-dish.jpg") center no-repeat;
+    /* background: url("../img/dishes/breakfast/test-dish.jpg") center no-repeat; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .modal-list {
@@ -230,6 +238,19 @@ ul {
 .modal-list,
 .modal-note-text {
     color: #2c2c2c;
+}
+
+.modal-item {
+    column-gap: 5px;
+}
+
+.ingr-text {
+    max-width: 50%;
+}
+
+.quant-text {
+    max-width: 50%;
+    text-align: right;
 }
 
 .modal-header-wrap,

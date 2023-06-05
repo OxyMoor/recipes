@@ -98,6 +98,7 @@ const renderModal = (dish) => {
 
     const modalImg = document.createElement('div');
     modalImg.classList.add('modal-img');
+    modalImg.style.backgroundImage = `url(${dish.imgSrc})`;
 
     const ingredients = document.createElement('ul');
     ingredients.classList.add('modal-list');
@@ -107,9 +108,11 @@ const renderModal = (dish) => {
         ingredientsItem.classList.add('modal-item');
 
         const ingr = document.createElement('span');
+        ingr.classList.add('ingr-text');
         ingr.textContent = el.ingr;
 
         const quant = document.createElement('span');
+        quant.classList.add('quant-text');
         quant.textContent = el.quant;
 
         ingredientsItem.append(ingr);
