@@ -41,11 +41,11 @@ const renderDishes = (data) => {
                 const ingr = document.createElement('span');
                 ingr.textContent = el.ingr;
     
-                const quant = document.createElement('span');
-                quant.textContent = el.quant;
+                // const quant = document.createElement('span');
+                // quant.textContent = el.quant;
     
                 ingredientsItem.append(ingr);
-                ingredientsItem.append(quant);
+                // ingredientsItem.append(quant);
     
                 ingredients.append(ingredientsItem);
             });

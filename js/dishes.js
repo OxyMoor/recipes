@@ -259,80 +259,80 @@ const dishesInfo = [
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Тосты с авокадо и красной рыбой',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'хлеб', quant: '2 куска'}, {ingr: 'авокадо', quant: '1/2 шт.'}, {ingr: 'красная рыба', quant: '2-4 ломтика'}, {ingr: 'творожный сыр', quant: '-'}, {ingr: 'лимонный сок', quant: 'несколько капель'}, {ingr: 'соль, перец', quant: 'по вкусу'}],
+                    note: 'Хлеб поджарить. Авокадо растолочь в пюре, сбрызнуть лимонным соком, посолить, поперчить. Намазать на хлеб творожный сыр, пюре, сверху выложить красную рыбу.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Тосты с творожныым сыром и авокадо',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'хлеб', quant: '2 куска'}, {ingr: 'авокадо', quant: '1/2 шт.'}, {ingr: 'творожный сыр', quant: '-'}, {ingr: 'лимонный сок', quant: 'несколько капель'}, {ingr: 'соль, перец', quant: 'по вкусу'}],
+                    note: 'Хлеб поджарить. Авокадо растолочь в пюре, сбрызнуть лимонным соком, посолить, поперчить. Намазать на хлеб творожный сыр, пюре.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Тосты с творожным сыром и вялеными томатами',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'хлеб', quant: '2 куска'}, {ingr: 'вяленые томаты', quant: '-'}, {ingr: 'творожный сыр', quant: '-'}],
+                    note: 'Хлеб поджарить. Намазать на хлеб творожный сыр, сверху выложить вяленые томаты.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Тосты с арахисовой пастой и бананом',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'хлеб', quant: '2 куска'}, {ingr: 'банан', quant: '1 шт.'}, {ingr: 'арахисовая паста', quant: '1 ст.л.'}],
+                    note: 'Хлеб поджарить, смазать арахисовой пастой. Сверху выложить нарезанный банан.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Бутерброды со шпротами',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'батон', quant: '-'}, {ingr: 'шпроты', quant: '1 банка'}, {ingr: 'огурец свежий/соленый', quant: '1 шт.'}, {ingr: 'чеснок', quant: '1 зубчик'}, {ingr: 'майонез', quant: '-'}],
+                    note: 'Батон поджарить, натереть чесноком, смазать майонезом. Сверху выложить шпроты и нарезанный огурец.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Сырный омлет в лаваше',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'яйцо', quant: '2 шт.'}, {ingr: 'лаваш круглый', quant: '1 шт.'}, {ingr: 'сыр', quant: '-'}, {ingr: 'соль', quant: 'по вкусу'}],
+                    note: 'Взбить яйца, вылить на сковороду. Сверху сразу накрыть лавашом. Через несколько минкт, когда яйцо схватится, перевернуть. Посыпать сверху (на яйцо) сыром, готовить под крышкой до готовности яйца.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Плюшки из слоеного теста',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'тесто слоеное', quant: '1 упаковка'}, {ingr: 'колбаса', quant: '-'}, {ingr: 'сыр', quant: '-'}, {ingr: 'кетчуп', quant: '-'},  {ingr: 'майонез', quant: '-'}],
+                    note: 'Тесто смазать кетчупом и майонезом. Сверху равномерно выложить колбасу и сыр. Скатать в колбаску, затем разделить на булочки. Выпекать около 30 минут.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Пицца',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'тесто дрожжевое', quant: '1 упаковка'}, {ingr: 'Колбаса', quant: '-'}, {ingr: 'сыр', quant: '-'}, {ingr: 'кетчуп', quant: '-'}, {ingr: 'майонез', quant: '-'}, {ingr: 'томаты (вяленые или свежие), болгарский перец, лук, маслины', quant: 'опционально'}],
+                    note: 'Раскатать тесто, смазать кетчупом и майонезом, выложить начинку и посыпать тертым сыром. Выпекать около 30 минут.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Хачапури',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'творог', quant: '250 г'}, {ingr: 'масло сливочное', quant: '150 г'}, {ingr: 'мука', quant: '1.5 ст.'}, {ingr: 'сахар', quant: '1/2 ст.л.'}, {ingr: 'сода', quant: '1/2 ч.л.'}, {ingr: 'сыр адыгейский', quant: '150 г'}, {ingr: 'сметана', quant: '2 ст.л.'}, {ingr: 'зелень', quant: 'пучок'}, {ingr: 'соль, специи', quant: 'по вкусу'}],
+                    note: 'Для теста смешать творог, масло, соду, сахар и муку. Раскатать 2 пласта. Для начинки смешать адыгейский сыр, 1 ст.л. сметаны, зелень, специи. Начинку выложить между двумя пластами теста, защипнуть края. Сверху смазать оставшейся сметаной, посыпать щепоткой соли. Запекать 40 имнут.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Помидоры с сыром и чесноком',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'Помидоры', quant: '2-3 шт.'}, {ingr: 'сыр', quant: '-'}, {ingr: 'чеснок', quant: '1 зубчик'}, {ingr: 'майонез', quant: '-'}],
+                    note: 'Натереть чеснок и сыр на мелкой терке, смешать с майонезом. Намазать смесь на нарезанные помидоры.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Рулет из лаваша',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'лаваш прямоугольный', quant: '2 листа'}, {ingr: 'морковь', quant: '1 шт.'}, {ingr: 'лук', quant: '1 шт.'}, {ingr: 'яйцо', quant: '1-2 шт.'}, {ingr: 'крабовые палочки', quant: '1 упаковка'}, {ingr: 'чеснок', quant: '1-2 зубчика'}, {ingr: 'майонез', quant: '-'}],
+                    note: 'Яйца отварить, натереть. Из лука и моркови приготовить зажарку. Крабовые палочки мелко нарезать. Чеснок натереть на мелкой терке, смешать с майонезом, смазать один лист лаваша. На него выложить яйца и крабовые палочки. На сухой лист выложить зажарку. Один лист положить поверх другого и свернуть в рулет.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Закусочные кексы',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'яйцо', quant: '2 шт.'}, {ingr: 'масло сливочное', quant: '2 ст.л.'}, {ingr: 'мука', quant: '3 ст.л.'}, {ingr: 'сода', quant: 'щепотка'}, {ingr: 'соль', quant: 'щепотка'}, {ingr: 'сахар', quant: 'щепотка'}, {ingr: 'колбаса', quant: '-'}, {ingr: 'сыр твердый', quant: '-'}, {ingr: 'сыр адыгейский', quant: '-'}],
+                    note: 'Для теста смешать яйца, масло, муку, соду, соль, сахар. Колбасу и сыры порезать маленьким кубиком, смешать с тестом. Разложить по формочкам, выпекать 25 минут.'
                 },
                 {
                     imgSrc: './img/dishes/breakfast/test-dish.jpg',
                     title: 'Лепешки с начинкой',
-                    ingredientsList: [{ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}, {ingr: '', quant: ''}],
-                    note: ''
+                    ingredientsList: [{ingr: 'вода', quant: '200 мл'}, {ingr: 'масло растительное', quant: '4 ст.л.'}, {ingr: 'соль', quant: '2 ч.л.'}, {ingr: 'мука', quant: '~350 г'}, {ingr: 'картофель', quant: '1-2 шт.'}, {ingr: 'зелень', quant: 'пучок'}, {ingr: 'масло сливочное', quant: '2 ч.л.'}],
+                    note: 'Замешать тесто из воды, растительного масла, соли и муки. Для начинки отварить картофель, сделать из него пюре, добавить сливочное масло и нарезанную зелень. Разделить тесто на части, раскатать каждую часть и завернуть в нее начинку. Обжарить лепешки с обеих сторон.'
                 }
             ]
     }
