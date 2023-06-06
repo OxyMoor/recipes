@@ -1,17 +1,24 @@
+// импорт базы данных
 import dishesInfo from "./dishes.js";
 
+const tabBtns = Array.from(document.querySelectorAll('.tab-btn'));
+const sections = Array.from(document.querySelectorAll('.dishes'));
 const modal = document.querySelector('.modal');
-
+// открыть модальное окно
 const showModal = (e) => {
-    renderModal(getDishCard(e.currentTarget, dishesInfo))
+    renderModal(getDishCard(e.currentTarget, dishesInfo));
     modal.classList.add('active');
-}
 
+    document.body.style.overflowY = 'hidden';
+}
+// заакрыть модальное окно
 const closeModal = () => {
     modal.classList.remove('active');
     modal.innerHTML = '';
-}
 
+    document.body.style.overflowY = 'unset';
+}
+// рендер страницы с карточками блюд
 const renderDishes = (data) => {
     data.forEach(category => {
         const currentSection = document.querySelector(`.${category.categoryName}`);
@@ -60,9 +67,7 @@ const renderDishes = (data) => {
         });
     });
 };
-
-renderDishes(dishesInfo);
-
+// получить индекс нажатой карточки
 const getDishCard = (target, data) => {
     const category = target.dataset.category;
     const index = target.dataset.index;
@@ -76,7 +81,7 @@ const getDishCard = (target, data) => {
 
     return currentCategory.dishesList[index];
 };
-
+// рендер модального окна
 const renderModal = (dish) => {
     const modalCard = document.createElement('div');
     modalCard.classList.add('modal-card');
@@ -145,9 +150,8 @@ const renderModal = (dish) => {
     closeBtn.addEventListener('click', closeModal);
 };
 
-const tabBtns = Array.from(document.querySelectorAll('.tab-btn'));
-const sections = Array.from(document.querySelectorAll('.dishes'));
-
+renderDishes(dishesInfo);
+// переключение категорий блюд
 tabBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
         tabBtns.forEach(btn => {
@@ -165,10 +169,19 @@ tabBtns.forEach(btn => {
         activeSection.classList.add('active');
     });
 });
-
+// закрытие модального окна по кнопке "назад"
 window.addEventListener('beforeunload', (e) => {
     if (modal.classList.contains('active')) {
         e.preventDefault();
         closeModal();
     }
+});
+// прелоадер
+window.addEventListener('load', () => {
+    document.body.classList.add('loaded-hiding');
+
+    window.setTimeout(() => {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded-hiding');
+    }, 500);
 });
