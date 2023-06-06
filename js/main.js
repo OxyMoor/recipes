@@ -3,7 +3,6 @@ import dishesInfo from "./dishes.js";
 const modal = document.querySelector('.modal');
 
 const showModal = (e) => {
-    console.log(e.currentTarget);
     renderModal(getDishCard(e.currentTarget, dishesInfo))
     modal.classList.add('active');
 }
@@ -39,13 +38,14 @@ const renderDishes = (data) => {
                 ingredientsItem.classList.add('ingredients-item');
     
                 const ingr = document.createElement('span');
-                ingr.textContent = el.ingr;
-    
-                // const quant = document.createElement('span');
-                // quant.textContent = el.quant;
+
+                if (el.ingr.length >  11) {
+                    ingr.textContent = el.ingr.slice(0, 12) + '...';
+                } else {
+                    ingr.textContent = el.ingr;
+                }
     
                 ingredientsItem.append(ingr);
-                // ingredientsItem.append(quant);
     
                 ingredients.append(ingredientsItem);
             });
@@ -164,4 +164,11 @@ tabBtns.forEach(btn => {
 
         activeSection.classList.add('active');
     });
+});
+
+window.addEventListener('beforeunload', (e) => {
+    if (modal.classList.contains('active')) {
+        e.preventDefault();
+        closeModal();
+    }
 });
