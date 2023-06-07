@@ -169,13 +169,13 @@ tabBtns.forEach(btn => {
         activeSection.classList.add('active');
     });
 });
-// закрытие модального окна по кнопке "назад"
-window.addEventListener('beforeunload', (e) => {
-    if (modal.classList.contains('active')) {
-        e.preventDefault();
-        closeModal();
-    }
-});
+// !НЕ РЕАЛИЗОВАНО! закрытие модального окна по кнопке "назад"
+// window.addEventListener('beforeunload', (e) => {
+//     if (modal.classList.contains('active')) {
+//         e.preventDefault();
+//         closeModal();
+//     }
+// });
 // прелоадер
 window.addEventListener('load', () => {
     document.body.classList.add('loaded-hiding');
