@@ -188,9 +188,8 @@ ul {
 .ingredients-item::before,
 .modal-item::before {
     position: absolute;
-    top: 50%;
+    top: 9px;
     left: 0;
-    transform: translateY(-50%);
     display: block;
     content: "";
     width: 4px;
@@ -278,6 +277,7 @@ ul {
 }
 
 .modal-item {
+    align-items: flex-end;
     column-gap: 5px;
 }
 
